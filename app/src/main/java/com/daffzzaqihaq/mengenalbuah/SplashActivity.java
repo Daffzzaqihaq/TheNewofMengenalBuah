@@ -7,7 +7,7 @@ import android.widget.ProgressBar;
 
 import com.daffzzaqihaq.mengenalbuah.R;
 
-public class SplashScreenActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     private long ms = 0;
     private long splashTime = 3000;
@@ -30,7 +30,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                     }
                 } catch (Exception e) {
                 } finally {
-                    Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, MainMain.class);
                     startActivity(intent);
                     finish();
                 }
